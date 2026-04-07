@@ -2,3 +2,52 @@ html, body {
   margin: 0;
   overflow: hidden;
 }
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 500px;
+  background: red;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.screen, .buttons {
+  left: 50%;
+  transform: translate(-50%, 0);
+  position: absolute;
+  border-radius: 25px;
+  width: 80%;
+}
+
+.screen {
+  height: 30%;
+  background: black;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.buttons {
+  height: 55%;
+  bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background: transparent;
+}
+
+button {
+  border: none;
+  border-radius: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
