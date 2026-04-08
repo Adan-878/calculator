@@ -1,2 +1,2 @@
 # calculator
-trying to make a calc
+trying to make a calculator
